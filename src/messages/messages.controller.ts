@@ -8,6 +8,6 @@ export class MessagesController {
   @Post()
   createMessage() {}
 
-  @Get()
+  @Get('/:id')
   getMessage() {}
 }
